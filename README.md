@@ -1,4 +1,4 @@
-# Idea
+# Idea : Stock Market Prediction using Machine Learning
 Finance is highly nonlinear and sometimes stock price data can even seem completely random. Traditional time series methods such as ARIMA ,SARIMA and GARCH models are effective only when the series is stationary, which is a restricting assumption that requires the series to be preprocessed by taking log returns (or other transforms). However, the main issue arises in implementing these models in a live trading system, as there is no guarantee of stationarity as new data is added.
 This is combated by using Neural Networks(sequential models like LSTM,GRU etc.), which do not require any stationarity to be used. Furthermore, neural networks by nature are effective in finding the relationships between data and using it to predict (or classify) new data.
 
